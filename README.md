@@ -1,3 +1,3 @@
 # meu-primeiro-repo
 
-Fiz uma alteração o repositório remoto no GitHub
+Fiz uma alteração no repositório remoto no GitHub
