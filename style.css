@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+}
+
+.card {
+    width: 500px;
+    height: fit-content;
+    border: 3px solid black;
+    border-radius: 30px;
+    background-color: aliceblue;
+    margin: 20px;
+}
+
+.card-image {
+    width: 100px;
+    height: 50%;
+    border-radius: 50%;
+}
+
+/*
+Aqui ele ta pegando a classe pai(div) e pegando a tag dentro dela
+*/
+.card-image img {
+    width: 100px;
+    height: 50%;
+}
+
+.card-titulo {
+    font-size: 35px;
+}
+
+/*
+Dessa forma abaixo ele vai pegar o estilo do card-tilulo e adicionar o estilo do car-titulo nome
+dessa forma eu consigo alterar só a parte que eu quero
+*/
+.card-titulo .card-titulo-nome {
+    color: cadetblue;
+}
+
+.card-mensagem {
+    font-size: 25px;
+}
+
+.card-mensagem .card-mensagem-resposta {
+    font-style: italic;
+    font-weight: bold;
+    color: #b11a1a;
+}
